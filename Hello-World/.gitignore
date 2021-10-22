@@ -1,0 +1,21 @@
+# Trick to ignore binary files
+# Ignore all
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+
+bin/
+# or
+*/bin/*
+**/bin
+*.o
+*.s
+*.dylib
+*.h
+*.c
+*.c.h
+*.c.l.h
+*.~lock*
+*.swp
